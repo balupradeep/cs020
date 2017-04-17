@@ -1,8 +1,8 @@
 fname=$1
 uname=$2
-if [ $# -ne 2 ]
+if [ $# != 2 ]
 then
-	echo "not enough arguments"
+	echo "Not enough arguments"
 	exit
 fi
 if [ ! -f $1 ]
