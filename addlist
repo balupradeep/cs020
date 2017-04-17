@@ -1,0 +1,14 @@
+fname=$1
+uname=$2
+if [ $# -ne 2 ]
+then
+	echo "not enough arguments"
+	exit
+fi
+if [ ! -f $1 ]
+then 	
+	echo "file doesnot exist"
+exit
+fi
+echo $uname >> $fname
+
