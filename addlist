@@ -2,12 +2,12 @@ fname=$1
 uname=$2
 if [ $# != 2 ]
 then
-	echo "Not enough arguments"
+	echo "NOT ENOUGH ARGUMENTS"
 	exit
 fi
 if [ ! -f $1 ]
 then 	
-	echo "file doesnot exist"
+	echo "FILE DOESNOT EXIST"
 exit
 fi
 echo $uname >> $fname
