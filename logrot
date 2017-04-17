@@ -9,6 +9,6 @@ then
 		echo "$(tail $filename)" > $filename
 		cat $filename
 	else
-		echo "File does not exist"
+		echo "FILE DOESNOT EXIST"
 	fi
 fi
