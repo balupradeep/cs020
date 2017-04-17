@@ -4,7 +4,7 @@ while [ $i = "y" ]
 do
 echo "###ENTER THE FIRST NO:"
 read n1
-echo "Enter second no:!!!!"
+echo "ENTER THE SECOND NO"
 read n2
 echo "1.Addition#"
 echo "#2.Subtraction"
