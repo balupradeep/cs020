@@ -2,7 +2,7 @@ sum=0
 i="y"
 while [ $i = "y" ]
 do
-echo " Enter first no:"
+echo "ENTER THE FIRST NO:"
 read n1
 echo "Enter second no:"
 read n2
