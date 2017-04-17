@@ -6,11 +6,11 @@ echo Kernal release :
  uname -r
 cat /etc/shells 
 
-echo MEMORY INFORMATION : 
+echo memory information : 
  more /proc/meminfo
-echo DISK INFORMATION : 
+echo disk iformation : 
  du -b 
 echo FILE System : 
  more /proc/mounts
-echo CPU INFORMATION : 
+echo CPU information : 
  more /proc/cpuinfo
